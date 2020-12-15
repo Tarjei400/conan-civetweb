@@ -17,7 +17,7 @@ linux: &linux
 osx: &osx
    os: osx
    language: generic
-matrix:
+jobs:
    include:
 
       - <<: *linux
@@ -34,7 +34,7 @@ matrix:
 
       - <<: *linux
         env: CONAN_GCC_VERSIONS=8 CONAN_DOCKER_IMAGE=conanio/gcc8
-        
+
       - stage: default
         <<: *linux
         env: CONAN_GCC_VERSIONS=9 CONAN_DOCKER_IMAGE=conanio/gcc9
