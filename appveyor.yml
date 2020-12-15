@@ -1,6 +1,6 @@
 environment:
   PYTHON_HOME: "C:\\Python37"
-  CONAN_REFERENCE: "civete/1.13"
+  CONAN_REFERENCE: "civetweb/1.13"
   CONAN_USERNAME: "tarjei400"
   CONAN_LOGIN_USERNAME: "tarjei400"
   CONAN_CHANNEL: "stable"
