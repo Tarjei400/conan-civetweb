@@ -1,11 +1,11 @@
 
 env:
    global:
-     - CONAN_REFERENCE: "hello/0.1"
-     - CONAN_USERNAME: "demo"
-     - CONAN_LOGIN_USERNAME: "demo"
-     - CONAN_CHANNEL: "testing"
-     - CONAN_UPLOAD: "UPLOAD_URL"
+     - CONAN_REFERENCE: "civete/1.13"
+     - CONAN_USERNAME: "tarjei400"
+     - CONAN_LOGIN_USERNAME: "tarjei400"
+     - CONAN_CHANNEL: "stable"
+     - CONAN_UPLOAD: "https://api.bintray.com/conan/tarjei400"
 
 linux: &linux
    os: linux
