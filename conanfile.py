@@ -66,11 +66,6 @@ class civetwebConan(ConanFile):
         return cmake
 
     def build(self):
-        #tools.replace_in_file(file_path="CMakeLists.txt",
-        #                      search="project (civetweb)",
-        #                      replace="""project (civetweb)
-        #                         include(conanbuildinfo.cmake)
-        #                         conan_basic_setup()""")
         cmake = self._configure_cmake()
         cmake.build()
 
